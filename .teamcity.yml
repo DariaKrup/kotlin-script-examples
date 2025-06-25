@@ -3,4 +3,4 @@ jobs:
     name: Job from Script
     steps:
       - type: script
-        script-content: echo "Kotlin super !!"
+        script-content: echo "Kotlin super (readme)!!"
