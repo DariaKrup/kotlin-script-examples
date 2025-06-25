@@ -4,3 +4,6 @@ jobs:
     steps:
       - type: script
         script-content: echo "Kotlin super !! (new branch)"
+      - type: script
+        script-content: ls -la ./
+        docker-image: ubuntu:latest
