@@ -1,6 +1,6 @@
 jobs:
   Job1:
-    name: Job from Script (kts)
+    name: Job 1
     steps:
       - type: script
-        script-content: echo "Kotlin super (new) + TeamCity"
+        script-content: echo 'Kotlin'
